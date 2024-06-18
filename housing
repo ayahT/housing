@@ -1,84 +1,28 @@
 {
  "cells": [
   {
-   "cell_type": "markdown",
-   "id": "d60f8ccd",
-   "metadata": {
-    "papermill": {
-     "duration": 0.002015,
-     "end_time": "2024-06-18T14:46:49.316752",
-     "exception": false,
-     "start_time": "2024-06-18T14:46:49.314737",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "# Image Classification with Google MobileNetV2"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "71cc15da",
-   "metadata": {
-    "papermill": {
-     "duration": 0.001377,
-     "end_time": "2024-06-18T14:46:49.319888",
-     "exception": false,
-     "start_time": "2024-06-18T14:46:49.318511",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "source": [
-    "## Import Libraries"
-   ]
-  },
-  {
    "cell_type": "code",
-   "execution_count": 1,
-   "id": "a427ed58",
+   "execution_count": null,
+   "id": "5ffb88cb",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-06-18T14:46:49.324140Z",
-     "iopub.status.busy": "2024-06-18T14:46:49.323868Z",
-     "iopub.status.idle": "2024-06-18T14:47:04.979979Z",
-     "shell.execute_reply": "2024-06-18T14:47:04.979017Z"
+     "iopub.execute_input": "2024-02-26T15:29:13.500767Z",
+     "iopub.status.busy": "2024-02-26T15:29:13.500486Z",
+     "iopub.status.idle": "2024-02-26T15:29:27.677657Z",
+     "shell.execute_reply": "2024-02-26T15:29:27.676876Z",
+     "shell.execute_reply.started": "2024-02-26T15:29:13.500743Z"
     },
     "papermill": {
-     "duration": 15.660952,
-     "end_time": "2024-06-18T14:47:04.982394",
+     "duration": 0.001806,
+     "end_time": "2024-06-18T14:50:53.211940",
      "exception": false,
-     "start_time": "2024-06-18T14:46:49.321442",
+     "start_time": "2024-06-18T14:50:53.210134",
      "status": "completed"
     },
     "tags": []
    },
-   "outputs": [
-    {
-     "name": "stderr",
-     "output_type": "stream",
-     "text": [
-      "2024-06-18 14:46:51.245125: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered\n",
-      "2024-06-18 14:46:51.245249: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered\n",
-      "2024-06-18 14:46:51.399817: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered\n"
-     ]
-    }
-   ],
-   "source": [
-    "import tensorflow as tf\n",
-    "import tensorflow_hub as hub\n",
-    "import os\n",
-    "from IPython.display import Image\n",
-    "import matplotlib.pyplot as plt\n",
-    "import numpy as np\n",
-    "import pandas as pd\n",
-    "from sklearn.model_selection import train_test_split\n",
-    "from matplotlib.pyplot import imread\n",
-    "from sklearn.metrics import classification_report, accuracy_score\n",
-    "import warnings\n",
-    "warnings.filterwarnings(\"ignore\")"
-   ]
+   "outputs": [],
+   "source": []
   }
  ],
  "metadata": {
@@ -116,14 +60,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 20.059233,
-   "end_time": "2024-06-18T14:47:06.606854",
+   "duration": 2.981468,
+   "end_time": "2024-06-18T14:50:53.431318",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2024-06-18T14:46:46.547621",
+   "start_time": "2024-06-18T14:50:50.449850",
    "version": "2.5.0"
   }
  },
